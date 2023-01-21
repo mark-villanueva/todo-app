@@ -1,0 +1,135 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 2px 0px 2px;
+    background-color:#393E46;
+}
+.header{
+color: white; 
+text-align: center;
+} 
+
+@media (max-width: 600px) {
+    table {
+        width: 100%;
+    }
+    input[type=text] {
+        width: 100%;
+    }
+} 
+
+input[type=text]{
+    width: 50%;
+    padding: 1%;
+    box-sizing: border-box;
+    font-size: 14px;  
+    border-radius: 3px;
+}
+
+input[type=submit]{ 
+    background-color: #6D9886;  
+    border: none;
+    color: white;
+    padding: 1vw 2vw;
+    text-decoration: none;
+    margin-left: 5px ;    
+    cursor: pointer;
+    font-size: 18px;  
+    font-weight: bold;
+    border-radius: 3px;
+} 
+input[type=submit]:hover {
+  background-color: #8BBAA0;
+  }
+
+.task{
+    text-align: center;
+}
+  
+
+table{
+    table-layout: fixed; 
+    width: 80%;
+    border: none;
+    margin: auto;
+    border-collapse: collapse; 
+    text-align: center;
+  
+}  
+
+table tr:hover {
+    background-color: #484c53;
+}
+
+
+th{
+    background-color:#6D9886;
+    color: white;
+    height: 50px;
+} 
+
+
+td{
+    height: 25px;  
+    padding-top: 10px;
+    color: white;
+}
+
+.update{
+    background-color: #6D9886;
+    border: none;
+    color: white;
+    padding: 1vw 2vw;
+    text-decoration: none;
+    margin-top: 7px;    
+    cursor: pointer;  
+    font-weight: bold;
+    align-items: center;
+    font-size: 17px; 
+} 
+
+.update:hover {
+  background-color: #8BBAA0;
+  }
+
+.report{
+    padding-left: 45vw; 
+  
+} 
+
+  
+
+
+.delete{
+    background-color:#9A3334;
+    border: none;
+    color: white;
+    padding: .5vw 1vw;
+    text-decoration: none;
+    margin: 4px 2px;    
+    cursor: pointer;
+    font-size: 12px; 
+    border-radius: 3px;
+}  
+
+.delete:hover {
+  background-color: #b84d4f;
+  } 
+
+.edit:hover {
+    background-color: #8BBAA0;
+    }
+
+.edit{
+    background-color:#6D9886;
+    border: none;
+    color: white;
+    padding: .5vw 1vw;
+    text-decoration: none;
+    margin: 4px 2px;    
+    cursor: pointer;
+    font-size: 12px; 
+    border: 3px; 
+} 
+
+
+
